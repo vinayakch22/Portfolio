@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@keyframes scaleInfinite {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+}
+
+.black-background {
+  background-color: #050709;
+}
+
+.scale-infinite {
+  animation: scaleInfinite 5s ease-in-out infinite;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #050709;
+    color: #DDDDDD;
+    overflow-x: hidden;
+}
