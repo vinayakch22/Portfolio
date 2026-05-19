@@ -25,7 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
           <div>
             <img
               className="w-full bg-purple-400 shadow-[0_0_30px_#DDDDDD] rounded-lg translate-y-2 group-hover:-rotate-4 group-hover:scale-115 transition-transform duration-400"
-              src={`projects/${props.image}`}
+              src={`/projects/${props.image}`}
               alt={props.name}
             />
           </div>

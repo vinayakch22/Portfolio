@@ -44,6 +44,21 @@ export const projects: Projects[] = [
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs']
     },
     {
+        image: 'hop-lynk.png',
+        caption: 'A full-stack URL Shortener featuring per-link analytics, QR code generation, and custom aliases.',
+        name: 'Hop Lynk',
+        link: '#',
+        github: 'https://github.com/vinayakch22/Hop-lynk',
+        description: 'Hop Lynk is a production-ready MERN stack URL Shortener. It features secure JWT authentication, comprehensive per-link analytics with visual charts, QR code generation, and secure tracking without storing IP addresses.',
+        features: [
+            'Secure JWT authentication with HTTP-only cookies and bcrypt password hashing.',
+            'URL management with custom aliases, expiration dates, and active/inactive toggles.',
+            'Advanced per-link analytics tracking browsers, OS, devices, and countries.',
+            'Responsive UI including dark/light mode, toast notifications, and skeleton loaders.'
+        ],
+        technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS']
+    },
+    {
         image: 'PubliShelf.png', // Replace with your image
         caption: 'An IoT-based industrial safety and predictive maintenance solution to monitor machine health.',
         name: 'IoT Smart Safety Monitoring System',
@@ -57,21 +72,6 @@ export const projects: Projects[] = [
             'Capable of significantly reducing anomaly detection time during 24/7 cycles.'
         ],
         technologies: ['IoT', 'ESP32', 'Raspberry Pi', 'Machine Learning']
-    },
-    {
-        image: 'PubliShelf.png', // Replace with your image
-        caption: 'A security awareness project that simulates real-world phishing attacks in a controlled environment.',
-        name: 'Phishing Attack Simulation',
-        link: '#',
-        github: '#',
-        description: 'This ethical hacking project focuses on simulating phishing attacks to understand social engineering techniques and credential harvesting workflows. Deployed in a controlled environment, it demonstrates red-team methodologies to help improve security awareness and response efficiency.',
-        features: [
-            'Controlled deployment of phishing pages using SocialPhish and Ngrok.',
-            'Execution of ethical phishing scenarios on Kali Linux platforms.',
-            'Analysis and demonstration of credential capture workflows.',
-            'Designed to educate users and improve overall security awareness.'
-        ],
-        technologies: ['Kali Linux', 'SocialPhish', 'Ngrok']
     }
 ]
 
@@ -92,6 +92,21 @@ export const featuredProjects: Projects[] = [
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs']
     },
     {
+        image: 'hop-lynk.png',
+        caption: 'A full-stack URL Shortener featuring per-link analytics, QR code generation, and custom aliases.',
+        name: 'Hop Lynk',
+        link: '#',
+        github: 'https://github.com/vinayakch22/Hop-lynk',
+        description: 'Hop Lynk is a production-ready MERN stack URL Shortener. It features secure JWT authentication, comprehensive per-link analytics with visual charts, QR code generation, and secure tracking without storing IP addresses.',
+        features: [
+            'Secure JWT authentication with HTTP-only cookies and bcrypt password hashing.',
+            'URL management with custom aliases, expiration dates, and active/inactive toggles.',
+            'Advanced per-link analytics tracking browsers, OS, devices, and countries.',
+            'Responsive UI including dark/light mode, toast notifications, and skeleton loaders.'
+        ],
+        technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS']
+    },
+    {
         image: 'PubliShelf.png', // Replace with your image
         caption: 'An IoT-based industrial safety and predictive maintenance solution to monitor machine health.',
         name: 'IoT Smart Safety Monitoring System',
@@ -105,20 +120,5 @@ export const featuredProjects: Projects[] = [
             'Capable of significantly reducing anomaly detection time during 24/7 cycles.'
         ],
         technologies: ['IoT', 'ESP32', 'Raspberry Pi', 'Machine Learning']
-    },
-    {
-        image: 'PubliShelf.png', // Replace with your image
-        caption: 'A security awareness project that simulates real-world phishing attacks in a controlled environment.',
-        name: 'Phishing Attack Simulation',
-        link: '#',
-        github: '#',
-        description: 'This ethical hacking project focuses on simulating phishing attacks to understand social engineering techniques and credential harvesting workflows. Deployed in a controlled environment, it demonstrates red-team methodologies to help improve security awareness and response efficiency.',
-        features: [
-            'Controlled deployment of phishing pages using SocialPhish and Ngrok.',
-            'Execution of ethical phishing scenarios on Kali Linux platforms.',
-            'Analysis and demonstration of credential capture workflows.',
-            'Designed to educate users and improve overall security awareness.'
-        ],
-        technologies: ['Kali Linux', 'SocialPhish', 'Ngrok']
     }
 ];
