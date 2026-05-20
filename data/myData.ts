@@ -80,7 +80,7 @@ export const featuredProjects: Projects[] = [
         image: 'PubliShelf.png', // Replace with your image
         caption: 'An online marketplace for books and collectible magazines featuring real-time antique auctions.',
         name: 'PubliShelf',
-        link: '#',
+        link: 'https://publishelf.vercel.app',
         github: 'https://github.com/vinayakch22/PubliShelf',
         description: 'PubliShelf is a comprehensive online marketplace designed for book and magazine enthusiasts. It features a robust real-time auction system for antique and collectible items, ensuring state consistency and conflict-free bidding for hundreds of concurrent users.',
         features: [
@@ -95,7 +95,7 @@ export const featuredProjects: Projects[] = [
         image: 'hop-lynk.png',
         caption: 'A full-stack URL Shortener featuring per-link analytics, QR code generation, and custom aliases.',
         name: 'Hop Lynk',
-        link: '#',
+        link: 'https://hop-lynks.vercel.app',
         github: 'https://github.com/vinayakch22/Hop-lynk',
         description: 'Hop Lynk is a production-ready MERN stack URL Shortener. It features secure JWT authentication, comprehensive per-link analytics with visual charts, QR code generation, and secure tracking without storing IP addresses.',
         features: [
