@@ -59,7 +59,7 @@ export const projects: Projects[] = [
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS']
     },
     {
-        image: 'PubliShelf.png', // Replace with your image
+        image: 'iot.png', // Replace with your image
         caption: 'An IoT-based industrial safety and predictive maintenance solution to monitor machine health.',
         name: 'IoT Smart Safety Monitoring System',
         link: '#',
@@ -107,7 +107,7 @@ export const featuredProjects: Projects[] = [
         technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS']
     },
     {
-        image: 'PubliShelf.png', // Replace with your image
+        image: 'iot.png', // Replace with your image
         caption: 'An IoT-based industrial safety and predictive maintenance solution to monitor machine health.',
         name: 'IoT Smart Safety Monitoring System',
         link: '#',
