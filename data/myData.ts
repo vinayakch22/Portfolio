@@ -1,8 +1,10 @@
 interface Data {
     email: string,
+    phone: string,
     linkedin: string,
     resume: string
     github: string,
+    instagram: string,
     leetcode: string,
     CGPA: number
 }
@@ -20,9 +22,11 @@ export interface Projects {
 
 export const myData: Data = {
     email: 'vinayakch22@gmail.com',
+    phone: '8499845559',
     linkedin: 'vinayak-chakka',
     resume: 'https://drive.google.com/file/d/1vpE1VMeofQ5IQKpfqSdy-OlatZPShcMV',
     github: 'vinayakch22',
+    instagram: 'vinayak_ch_12',
     leetcode: 'vinayak_ch_12',
     CGPA: 7.01
 }
