@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion, useScroll } from 'motion/react'; 
 import { RxCross2 } from "react-icons/rx";
 import { TbMenu3 } from "react-icons/tb";
@@ -11,6 +11,30 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const navItems = ['home', 'about', 'projects', 'skills', 'education'];
+
+  useEffect(() => {
+    const observers: IntersectionObserver[] = [];
+
+    navItems.forEach((id) => {
+      const section = document.getElementById(id);
+      if (section) {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            if (entry.isIntersecting) {
+              setActive(id);
+            }
+          },
+          { threshold: 0.3 }
+        );
+        observer.observe(section);
+        observers.push(observer);
+      }
+    });
+
+    return () => {
+      observers.forEach((observer) => observer.disconnect());
+    };
+  }, []);
 
   const scrollToSection = (id: string) => {
     const section = document.getElementById(id);
