@@ -53,7 +53,7 @@ const About = () => {
             <motion.p className='lg:text-xl sm:text-lg text-md opacity-80'
                 variants={childVariants}
             >
-            👋 Hey there! I&apos;m Chakka Kishore Sri Valli Vinayak, a passionate developer currently pursuing my B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Sri City (2023-2027). 
+             Hey there! I&apos;m Chakka Kishore Sri Valli Vinayak, a passionate developer currently pursuing my B.Tech in Computer Science and Engineering at Indian Institute of Information Technology, Sri City (2023-2027). 
             </motion.p>
             <motion.p className='lg:text-xl sm:text-lg text-md opacity-80'
                 variants={childVariants}
